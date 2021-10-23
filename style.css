@@ -59,6 +59,7 @@ aside {
 main {
     flex:70%;
     padding:20px;
+    color:lightblue;
     background-color: #468AC9;
     font-size: 25px;
 }
@@ -86,12 +87,24 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
+  input[type=submit]{
+    width: 10%;
+    letter-spacing: 0.05em;
+    background-color: #468AC9;
+    padding: 12px 20px;
+    color: white;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid;
+    box-sizing: border-box;
+  }
 footer.leftside{
         flex:50%;
-    
+
     }
 footer.rightside{
     flex:50%;
+
 
 }
 
