@@ -87,7 +87,7 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  input[type=submit]{
+  input.submit{
     width: 10%;
     letter-spacing: 0.05em;
     background-color: #468AC9;
@@ -98,6 +98,17 @@ input[type=text], select {
     border: 2px solid;
     box-sizing: border-box;
   }
+
+    input.red
+    {
+      background-color: #DB545A;
+      border: none;
+      color: white;
+      padding: 12px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+    }
 footer.leftside{
         flex:50%;
 
