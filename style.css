@@ -9,20 +9,26 @@ body {
 header {
     background-color: black;
     color: white;
-    padding: 80px;
+    padding:300px;
     text-align:center;
+    background-image: url('kalnas.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:auto;
+    background-position: bottom;
+       
    
 }
 header h1 {
     font-size: 40px;
 }
 nav{
-    background-color:#333;
+    background-color:#CCD3DB;
     overflow:hidden;
 }
 nav a {
-    float:left;
-    color: white;
+    float:right;
+    color: gray;
     text-align:center; 
     padding: 14px 20px;
     text-decoration:none;
@@ -38,7 +44,7 @@ section {
 }
 aside {
     flex:30%;
-    padding:20px;
+    padding:100px;
     background-color:#f1f1f1
 }
 main {
