@@ -59,7 +59,7 @@ h2.space {
 }
 
 aside {
-    flex:30%;
+    flex:40%;
     background-color:#f1f1f1;
     color: #468AC9;
     padding: 45px 200px 50px 70px;
@@ -67,7 +67,7 @@ aside {
 }
 
 main {
-    flex:70%;
+    flex:60%;
     padding:20px;
     color:lightblue;
     background-color: #468AC9;
