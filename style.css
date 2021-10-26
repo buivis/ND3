@@ -5,17 +5,18 @@
 
 body {
     margin:0;
+   
+
+
 }
 header {
-    background-color: black;
-    color:white;
+    color:black;
     padding:250px;
     text-align:center;
-    background-image: url('kalnas.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size:cover;
     background-position:center center;
+    background-image: url('kalnas.jpg');
 
 }
 header h1 {
@@ -116,7 +117,7 @@ input.red
 .text
     {
         text-align: center;
-        padding:70px 150px 0px 60px;
+        padding:70px 200px 0px 60px;
         font-size: large;
     }
 img {
